@@ -1,3 +1,5 @@
+//  JAVASCRIPT DECISION-MAKING
+
 // 1. Password Prompt
 
 // const password = prompt('Please enter a new password');
@@ -63,3 +65,18 @@
 //   default:
 //     alert('Invalid Number!');
 // }
+
+// JAVASCRIPT ARRAYS
+// Push: add to end, Pop: remove from end, Shift: remove from start, Unshift: add to start
+let movieLine = ['tom', 'nancy', 'pablo', 'oliver', 'eva'];
+movieLine.push('peter');
+movieLine.pop('nancy');
+movieLine.shift('tom');
+movieLine.shift('pablo');
+movieLine.unshift('VIP');
+
+// Concat
+let cats = ['blue', 'kitty'];
+let dogs = ['rusty', 'wyatt'];
+cats.concat(dogs);
+let combo = dogs.concat(cats);
