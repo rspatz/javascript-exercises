@@ -80,3 +80,24 @@ let cats = ['blue', 'kitty'];
 let dogs = ['rusty', 'wyatt'];
 cats.concat(dogs);
 let combo = dogs.concat(cats);
+
+// Array.prototype.includes
+cats.includes('Blue');
+cats.includes('blue');
+
+// Array.prototype.reverse
+combo.reverse();
+
+// Slice, Splice, Sort
+let colors = ['red', 'orange', 'blue', 'yellow', 'green'];
+colors.slice();
+colors.slice(3);
+
+colors.splice(3, 1);
+colors.splice(1, 0, 'pink');
+colors.splice(2, 0, 'yellow');
+
+// Reference types and equality testing
+let nums = [1, 2, 3];
+let numsCopy = nums;
+nums.push(4);
