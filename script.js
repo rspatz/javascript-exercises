@@ -68,36 +68,68 @@
 
 // JAVASCRIPT ARRAYS
 // Push: add to end, Pop: remove from end, Shift: remove from start, Unshift: add to start
-let movieLine = ['tom', 'nancy', 'pablo', 'oliver', 'eva'];
-movieLine.push('peter');
-movieLine.pop('nancy');
-movieLine.shift('tom');
-movieLine.shift('pablo');
-movieLine.unshift('VIP');
+// let movieLine = ['tom', 'nancy', 'pablo', 'oliver', 'eva'];
+// movieLine.push('peter');
+// movieLine.pop('nancy');
+// movieLine.shift('tom');
+// movieLine.shift('pablo');
+// movieLine.unshift('VIP');
 
 // Concat
-let cats = ['blue', 'kitty'];
-let dogs = ['rusty', 'wyatt'];
-cats.concat(dogs);
-let combo = dogs.concat(cats);
+// let cats = ['blue', 'kitty'];
+// let dogs = ['rusty', 'wyatt'];
+// cats.concat(dogs);
+// let combo = dogs.concat(cats);
 
 // Array.prototype.includes
-cats.includes('Blue');
-cats.includes('blue');
+// cats.includes('Blue');
+// cats.includes('blue');
 
 // Array.prototype.reverse
-combo.reverse();
+// combo.reverse();
 
 // Slice, Splice, Sort
-let colors = ['red', 'orange', 'blue', 'yellow', 'green'];
-colors.slice();
-colors.slice(3);
+// let colors = ['red', 'orange', 'blue', 'yellow', 'green'];
+// colors.slice();
+// colors.slice(3);
 
-colors.splice(3, 1);
-colors.splice(1, 0, 'pink');
-colors.splice(2, 0, 'yellow');
+// colors.splice(3, 1);
+// colors.splice(1, 0, 'pink');
+// colors.splice(2, 0, 'yellow');
 
 // Reference types and equality testing
-let nums = [1, 2, 3];
-let numsCopy = nums;
-nums.push(4);
+// let nums = [1, 2, 3];
+// let numsCopy = nums;
+// nums.push(4);
+
+// Nested Arrays: Storing Arrays inside other Arrays
+// const gameBoard = [
+//   ['X', 'O', 'X'],
+//   ['O', null, 'X'],
+//   ['O', 'O', 'X']
+// ];
+// gameBoard;
+// gameBoard[1];
+
+// JavaScript Object Literals
+// Fitbit Application
+// Property = Key + Value or Key/Value pairs
+const fitBitData = {
+  totalSteps: 308727,
+  totalMiles: 211.7,
+  avgCalorieBurn: 5755,
+  workoutsThisWeek: '5 of 7',
+  avgGoodSleep: '2:13'
+};
+
+const person = { firstName: 'Mick', lastName: 'Jagger' };
+
+const kitchenSink = {
+  model: 'Gourmet',
+  color: 'brass',
+  price: 1024
+};
+
+const midTerms = { danielle: 96, thomas: 78 };
+midTerms.thomas = 79;
+midTerms.ezra = 89;
