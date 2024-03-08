@@ -114,22 +114,38 @@
 // JavaScript Object Literals
 // Fitbit Application
 // Property = Key + Value or Key/Value pairs
-const fitBitData = {
-  totalSteps: 308727,
-  totalMiles: 211.7,
-  avgCalorieBurn: 5755,
-  workoutsThisWeek: '5 of 7',
-  avgGoodSleep: '2:13'
-};
+// const fitBitData = {
+//   totalSteps: 308727,
+//   totalMiles: 211.7,
+//   avgCalorieBurn: 5755,
+//   workoutsThisWeek: '5 of 7',
+//   avgGoodSleep: '2:13'
+// };
 
-const person = { firstName: 'Mick', lastName: 'Jagger' };
+// const person = { firstName: 'Mick', lastName: 'Jagger' };
 
-const kitchenSink = {
-  model: 'Gourmet',
-  color: 'brass',
-  price: 1024
-};
+// const kitchenSink = {
+//   model: 'Gourmet',
+//   color: 'brass',
+//   price: 1024
+// };
 
-const midTerms = { danielle: 96, thomas: 78 };
-midTerms.thomas = 79;
-midTerms.ezra = 89;
+// const midTerms = { danielle: 96, thomas: 78 };
+// midTerms.thomas = 79;
+// midTerms.ezra = 89;
+
+// Nesting Arrays and Objects
+// const comments = [
+//   { username: 'Tammy', text: 'lol', votes: 9 },
+//   { username: 'vinylGuy', text: 'The Rega P3 is astounding!', votes: 1203 }
+// ];
+
+// Repeating Stuff with Loops
+// Intro to For Loops
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 6; i++) {
+//   console.log('dabadeedaa');
+// }
