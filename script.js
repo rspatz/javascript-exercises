@@ -149,3 +149,60 @@
 // for (let i = 1; i <= 6; i++) {
 //   console.log('dabadeedaa');
 // }
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log('Hello!');
+// }
+
+// Looping Over Arrays
+// const animals = [
+//   'cats',
+//   'dogs',
+//   'bears',
+//   'aardvarks',
+//   'zebras',
+//   'african weasel',
+//   'aardwolf',
+//   'emperor penguin'
+// ];
+// for (let i = 0; i < animals.length; i++) {
+//   console.log(i, animals[i]);
+// }
+
+//   Iterating Arrays Exercise
+// I've provided you with an array of strings called people. Loop over the people array with a for loop, printing out each name in uppercase letters.  Your result should look something like:
+
+// SCOOBY
+// VELMA
+// DAPHNE
+// SHAGGY
+// FRED
+// Hint: use i from your loop as an array index!
+// }
+
+// const people = ['Scooby', 'Velma', 'Daphne', 'Shaggy', 'Fred'];
+// for (let i = 0; i < people.length; i++) {
+//   console.log(people[i].toUpperCase());
+// }
+
+// Nested Loops
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`i is: ${i}`);
+//   for (let j = 1; j < 4; j++) {
+//     console.log(`     j is: ${j}`);
+//   }
+// }
+
+// const seatingChart = [
+//   ['Kristen', 'Erik', 'Namita'],
+//   ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
+//   ['Yuma', 'Sakura', 'Jack', 'Erika']
+// ];
+
+// for (let i = 0; i < seatingChart.length; i++) {
+//   const row = seatingChart[i];
+//   console.log(`    ROW #${i + 1}`);
+//   for (let j = 0; j < row.length; j++) {
+//     console.log(row[j]);
+//   }
+// }
