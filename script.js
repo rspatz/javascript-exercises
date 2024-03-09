@@ -206,3 +206,26 @@
 //     console.log(row[j]);
 //   }
 // }
+
+// While Loops
+// let count = 0;
+// while (count < 10) {
+//   count++;
+//   console.log(count);
+// }
+
+// const secretCode = 'BabyHippo';
+
+// let guess = prompt('Enter the secret code:');
+// while (guess !== secretCode) {
+//   guess = prompt('enter the secret code:');
+// }
+// prompt('Congrats!');
+
+// The Break keyword
+// let input = prompt("Hey, say something!")
+// while (true) {
+//     input = prompt(input);
+//     if (input.toLowerCase() === "stop copying me") break;
+// }
+// console.log("OK YOU WIN!")
