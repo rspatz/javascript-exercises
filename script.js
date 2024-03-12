@@ -229,3 +229,75 @@
 //     if (input.toLowerCase() === "stop copying me") break;
 // }
 // console.log("OK YOU WIN!")
+
+//  For..Of Loops
+// const subreddits = [
+//   'cringe',
+//   'books',
+//   'chickens',
+//   'funny',
+//   'pics',
+//   'soccer',
+//   'gunners'
+// ];
+
+// Example 1
+// For loop
+// for (let i = -0; i < subreddits.length; i++) {
+//   console.log(`Visit reddit.com/r/${subreddits[i]}`);
+// }
+
+// Of loop
+// for (let sub of subreddits) {
+//   console.log(`Visit reddit.com/r/${sub}`);
+// }
+
+// Example 2
+// const seatingChart = [
+//   ['Kristen', 'Erik', 'Namita'],
+//   ['Geoffrey', 'Juanita', 'Antonio', 'Kevin'],
+//   ['Yuma', 'Sakura', 'Jack', 'Erika']
+// ];
+
+// For loop
+// for (let i = 0; i < seatingChart.length; i++) {
+//   const row = seatingChart[i];
+//   console.log(`    ROW #${i + 1}`);
+//   for (let j = 0; j < row.length; j++) {
+//     console.log(row[j]);
+//   }
+// }
+
+// Of loop
+// for (let row of seatingChart) {
+//   for (let student of row) {
+//     console.log(student);
+//   }
+// }
+
+// Iterating over objects
+// const testScores = {
+//   keenan: 80,
+//   damon: 67,
+//   kim: 89,
+//   shawn: 91,
+//   marlon: 72,
+//   dwayne: 77,
+//   nadia: 83,
+//   elvira: 97,
+//   diedre: 81,
+//   vonnie: 60
+// };
+
+// for (let person in testScores) {
+//   console.log(`${person} scored ${testScores[person]}`);
+// }
+
+// let total = 0;
+// let scores = Object.values(testScores);
+
+// for (let score of scores) {
+//   total += score;
+// }
+
+// console.log(total / scores.length);
